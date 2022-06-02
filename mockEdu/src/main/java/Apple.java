@@ -11,6 +11,11 @@ public class Apple {
     public int price;
 
     Apple(){}
+    
+    @Override
+    public String toString() {
+        return "Apple variety is " + this.variety + " and him price " + this.price;
+    }
 
     public static void main(String[] args) throws IOException
     {
@@ -32,6 +37,6 @@ public class Apple {
         Apple appleNew = mapper.readValue(reader, Apple.class);
 
 
-        System.out.println("Apple variety is " + appleNew.variety + " and him price " + appleNew.price);
+        System.out.println(appleNew.toString());
     }
 }
