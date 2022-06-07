@@ -1,0 +1,25 @@
+<Nursery>
+    <name>Tales</name>
+    <address>
+        <country>Russia</country>
+        <city>Moscow</city>
+        <street>Arbat</street>
+        <numberHouse>1</numberHouse>
+        <floor>3</floor>
+        <flat>10</flat>
+    </address>
+    <animals>
+        <animal type="Cat">
+            <name>Murzik</name>
+            <age>5</age>
+            <withTale>false</withTale>
+            <kind>Rijik</kind>
+        </animal>
+        <animal type="Dog">
+            <name>Sharik</name>
+            <age>1</age>
+            <withTale>false</withTale>
+            <isSmall>true</isSmall>
+        </animal>
+    </animals>
+</Nursery>
