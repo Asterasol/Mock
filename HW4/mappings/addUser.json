@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/addUser/([A-Za-z]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "Гser successfully added",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

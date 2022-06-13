@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "PUT",
+        "urlPathPattern": "/updateAge/([0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "Age updated",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

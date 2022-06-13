@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/users/([A-Za-z]*)"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "getName.json"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "DELETE",
+        "urlPathPattern": "/deleteUser/([A-Za-z]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "User deleted",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
